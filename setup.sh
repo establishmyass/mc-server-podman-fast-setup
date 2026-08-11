@@ -12,7 +12,7 @@ SIMULATION_DISTANCE=${SIMULATION_DISTANCE:-6}
 MAX_PLAYERS=${MAX_PLAYERS:-10}
 IMAGE=${IMAGE:-docker.io/itzg/minecraft-server:latest}
 
-command -v apt-get >/dev/null || { echo "Debian/Ubuntu with apt-get required" >&2; exit 1; }
+command -v apt-get >/dev/null || { echo "Ubuntu 24.04-26.04 with apt-get required" >&2; exit 1; }
 sudo apt-get update
 sudo apt-get install -y podman uidmap slirp4netns fuse-overlayfs
 

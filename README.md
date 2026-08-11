@@ -1,6 +1,6 @@
 # mc-server-podman-fast-setup
 
-Fast rootless Podman setup for a Minecraft Java server on Debian 13. Uses [`itzg/minecraft-server`](https://github.com/itzg/docker-minecraft-server), a persistent Podman volume, and no public RCON port.
+Fast rootless Podman setup for a Minecraft Java server on Ubuntu 24.04–26.04. Uses [`itzg/minecraft-server`](https://github.com/itzg/docker-minecraft-server), a persistent Podman volume, and no public RCON port.
 
 ## Install
 
